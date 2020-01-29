@@ -17,10 +17,7 @@
                 "Role" : { "Fn::GetAtt" : ["TestLambdaExecutionRole", "Arn"] },
                 "Code" : {
                     "ZipFile" : { "Fn::Join" : [ "\n", [                        
-                        "exports.handler = (event, context, callback) => {",
-                        "    var data = event['msg'];",
-                        "    callback(null, 'Received: ' + data);",                       
-                        "}"
+                        "exports.handler = (event, context, callback) => {"," var data = event['msg'];"," callback(null, 'Received: ' + data);","}"
                     ]]}
                 },
                 "Timeout" : "10",                
