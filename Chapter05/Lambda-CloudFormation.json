@@ -1,5 +1,5 @@
 {
-    "Description" : "This is a simple Lambda function is NodeJs",
+    "Description" : "This is a simple Lambda function in NodeJs",
     "Parameters": {      
         "LambdaFunctionName":{
             "Description": "AWS Lambda function name",
